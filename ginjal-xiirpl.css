@@ -1,0 +1,38 @@
+body {
+  background: url('145.jpg'); no-repeat center;
+  background-size: 500px;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background: white;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 0 5px gray;
+  text-align: center;
+}
+
+h2 {
+  color: 99ffff;
+}
+
+input, button {
+  width: 100%;
+  margin: 8px 0;
+  padding: 8px;
+  border: 1px solid lightblue;
+  border-radius: 5px;
+}
+
+button {
+  background: black;
+  color: white;
+  border: none;
+}
+
+button:hover {
+  background: blue;
